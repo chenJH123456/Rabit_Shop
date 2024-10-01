@@ -19,10 +19,19 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
+		"types": ["vite/client"],
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["src/*"]
 		}
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+	"include": [
+		"src/**/*.ts",
+		"srC/**/*.tsx",
+		"srC/**/*.Vue",
+		"tests/**/*.ts",
+		"tests/**/*.tsx",
+		"typings"
+	],
+	"exclude": ["node_modules"]
 }
